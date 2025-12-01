@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-title {
+    font-size: 100px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: orange;
+}
+
+/* center the whole list */
+.recipes {
+    list-style: none;
+    text-align: center;
+    margin: 40px auto;
+}
+
+/* style each link as a pill-shaped button */
+.recipy-1 a,
+.recipy-2 a,
+.recipy-3 a {
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    color: chocolate;
+
+    background-color: blanchedalmond;
+    border-radius: 10px;
+
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
